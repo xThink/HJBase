@@ -7,7 +7,7 @@
 //
 
 #import "HJWebViewController.h"
-#import <HJWebView.h>
+#import <HJBase.h>
 
 @interface HJWebViewController ()
 
