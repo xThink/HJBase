@@ -1,0 +1,22 @@
+{
+  "name": "HJBase",
+  "version": "0.1.0",
+  "summary": "A short description of HJBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HeJun/HJBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HeJun": "hejun@yxj.org.cn"
+  },
+  "source": {
+    "git": "https://github.com/HeJun/HJBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HJBase/Classes/**/*"
+}
