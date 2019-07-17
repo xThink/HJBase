@@ -19,10 +19,14 @@
 @implementation HJWebView
 
 - (void)dealloc {
+    NSLog(@"%s", __func__);
     self.delegate = nil;
     self.binds = nil;
     for (NSString *name in self.binds.allKeys) {
         [self.configuration.userContentController removeScriptMessageHandlerForName:name];
+    }
+    if (!self.needRetainCache) {
+        [self clearCache];
     }
 }
 
@@ -79,6 +83,24 @@
             callback(message.body);
         }
     }
+}
+
+#pragma mark - private func
+
+/**
+ 清除 WKWebView 缓存
+ */
+- (void)clearCache {
+    NSString *libraryDir = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES)[0];
+    NSString *bundleId  =  [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
+    NSString *webkitFolderInLib = [NSString stringWithFormat:@"%@/WebKit",libraryDir];
+    NSString *webKitFolderInCaches = [NSString stringWithFormat:@"%@/Caches/%@/WebKit",libraryDir,bundleId];
+    //    NSString *webKitFolderInCachesfs = [NSString stringWithFormat:@"%@/Caches/%@/fsCachedData",libraryDir,bundleId];
+    
+    NSError *error;
+    /* iOS8.0 WebView Cache的存放路径 */
+    [[NSFileManager defaultManager] removeItemAtPath:webKitFolderInCaches error:&error];
+    [[NSFileManager defaultManager] removeItemAtPath:webkitFolderInLib error:nil];
 }
 
 #pragma mark - lazyload

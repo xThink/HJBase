@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HJWebView : WKWebView
 
+/** 是否需要保持缓存 */
+@property (nonatomic, assign) BOOL needRetainCache;
+
 /**
  绑定一个事件
  

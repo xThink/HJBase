@@ -1,5 +1,5 @@
 PODS:
-  - HJBase (0.1.0)
+  - HJBase (0.1.1)
 
 DEPENDENCIES:
   - HJBase (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HJBase: 885c87ea2e29bc458cdb29db53ef6f4f3fdd635d
+  HJBase: cf615448adc601b4e97895083edb9ba4ab897a11
 
 PODFILE CHECKSUM: ef5b6b063a1cd8a04f9746c5a8be0d5b3d9f9701
 

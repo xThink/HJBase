@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2622F76CF141885D5969049DF5D635A3 /* HJWeakScriptMessageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FA1E788A8411B52B545FB7D68E2FBF /* HJWeakScriptMessageDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C6883957C8DAA48A6D21DAD12F2E350 /* HJBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9CF463A74140AD4AF8A949C5434EF5 /* HJBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31ECE82C66F1FA9B9A7420E3E588C700 /* HJBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD1412F67FE3935510DF22501AAD3F /* HJBase-dummy.m */; };
+		48AC7FBA32568BA252797E28AF2D6357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		4DD98EBC41F62D72356183AD16E6B36A /* Pods-HJBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7076B80EAB020197245C0E2474BDB98 /* Pods-HJBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A6EA56813113D943816B5F622F6184 /* HJWeakScriptMessageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C880C65D514AD879EB480A88285CBE33 /* HJWeakScriptMessageDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CD10A7BAB194E9301E3FB561E528960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		66B33E0C4B23B09684716AB5DE382F32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		919BD3B280C1D46CB2997624009C1D03 /* HJBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B14B8C641BC5D503451B4BA8BE0F56 /* HJBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4048499628DD17219F24426EAD2BAA /* HJBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C05B34AB9B0E69665796DDAC7CC8730 /* HJBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEECAC226BD1DF69F2C31F9848096C8 /* HJBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 739D76D64CB3A1DF523D4FCD821C47EA /* HJBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		956AD5924EE7D363194900BF8DA5871F /* HJWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E54F3343E8ACBD6D3C69676031C757E /* HJWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABBCF4A40EABADC438E7992C8C484E7F /* HJWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC32FEEA2A1C33C39EEC29528776C919 /* HJWebView.m */; };
 		AE57CA616AEECE0C0321542BA6689B44 /* Pods-HJBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3929D58F038635268B169759BE7A5D18 /* Pods-HJBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D279F24B3486818BB1D57E80684CF148 /* Pods-HJBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544C4476119C010F727C5F778CAE652 /* Pods-HJBase_Example-dummy.m */; };
-		DC0AD7FFC388F4080C6F43B06702F864 /* HJWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C788133FA4FB005D741EBBC1B21B1 /* HJWebView.m */; };
-		DE34FB0A156B7D579AAB5B0D2F4B63AC /* HJBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E44D8133C03C8517FDB6AD72A822F25D /* HJBase-dummy.m */; };
 		E0DB4983E5707F38E17E15B10A0A195E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E58F54F3C19A0D4CD6AA6F3AC60F226C /* HJWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE4C7997ABDF26384A763FFA5FA6DE /* HJWeakScriptMessageDelegate.m */; };
-		EAA5F7AFCEE8F458FE21BC6C6DDD3066 /* HJWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEFA0C8BC7992AF94873530C2B5DA08 /* HJWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98A973F67CF57E334AA1ED4AF1443B6 /* HJWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C842D061485D888045315EF1D65D972E /* HJWeakScriptMessageDelegate.m */; };
 		F9BD1AA24841C24C2043F99E2638CB45 /* Pods-HJBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E8C74519EC1E61481DE27D67AED92B /* Pods-HJBase_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -35,47 +35,47 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9344D0263F8B9E70C8EA319608357F7;
+			remoteGlobalIDString = 45FCA74A16A31E320571EF370DB4B3F3;
 			remoteInfo = HJBase;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07CD1412F67FE3935510DF22501AAD3F /* HJBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HJBase-dummy.m"; sourceTree = "<group>"; };
 		094B1E39752C7182E6CE36DACC6C6CC9 /* Pods-HJBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		133C788133FA4FB005D741EBBC1B21B1 /* HJWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HJWebView.m; sourceTree = "<group>"; };
-		249639D45AF46EE9E82B4FA0C68C71EF /* HJBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJBase-prefix.pch"; sourceTree = "<group>"; };
+		19B3EB91D3FB012075DFBD4642843D28 /* HJBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJBase-prefix.pch"; sourceTree = "<group>"; };
 		2BDBBAE8DA11E44FA29251DD85906FA8 /* Pods_HJBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E28AF712305A288926091BCB934551D /* HJBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HJBase-Info.plist"; sourceTree = "<group>"; };
 		30600942A289971ED3929B9FAFED02F1 /* Pods-HJBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJBase_Tests.modulemap"; sourceTree = "<group>"; };
 		3929D58F038635268B169759BE7A5D18 /* Pods-HJBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJBase_Example-umbrella.h"; sourceTree = "<group>"; };
-		39DE7D66AE8FAEE7D357DE91BC5E3705 /* HJBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJBase.xcconfig; sourceTree = "<group>"; };
-		3CEFA0C8BC7992AF94873530C2B5DA08 /* HJWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HJWebView.h; sourceTree = "<group>"; };
+		39D3359A0742C523556D184727270D0B /* HJBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJBase.xcconfig; sourceTree = "<group>"; };
 		4544C4476119C010F727C5F778CAE652 /* Pods-HJBase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJBase_Example-dummy.m"; sourceTree = "<group>"; };
-		4DAE4C7997ABDF26384A763FFA5FA6DE /* HJWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HJWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		4C05B34AB9B0E69665796DDAC7CC8730 /* HJBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJBase-umbrella.h"; sourceTree = "<group>"; };
 		51ACEE4A2CDDF08EFD8FCF2A07B14D26 /* Pods-HJBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		53F22D4645ADF1B5CF72BB875F9C84AC /* Pods-HJBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		555CE613121319E6E871362D1FC5A17A /* HJBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HJBase.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5F5B250917371C0C697C5789DB1B798F /* Pods-HJBase_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJBase_Example-Info.plist"; sourceTree = "<group>"; };
 		66C9678E80699202E47BD576B6C0AFFE /* Pods-HJBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HJBase_Example-frameworks.sh"; sourceTree = "<group>"; };
 		69D63F95001D51E6D37E855F6CF84B79 /* Pods-HJBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B3DE511E5963D298FB8CED1AD9ECC3C /* Pods_HJBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ADAF39ADC3BB8543C406020D5BCED63 /* HJBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HJBase.modulemap; sourceTree = "<group>"; };
+		739D76D64CB3A1DF523D4FCD821C47EA /* HJBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJBase.h; path = HJBase/Classes/HJBase.h; sourceTree = "<group>"; };
+		7E54F3343E8ACBD6D3C69676031C757E /* HJWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HJWebView.h; sourceTree = "<group>"; };
+		7E851214D394F5ECEEF622D11F53D28E /* HJBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HJBase.modulemap; sourceTree = "<group>"; };
+		8DEB55010FE27AD008DD8F56697EE824 /* HJBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HJBase-Info.plist"; sourceTree = "<group>"; };
+		903C8DC6C7F1BAE92A855C2DCEBC84BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0B14B8C641BC5D503451B4BA8BE0F56 /* HJBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJBase.h; path = HJBase/Classes/HJBase.h; sourceTree = "<group>"; };
+		A02E41C049F72F9236EE9C74C0F02031 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A7076B80EAB020197245C0E2474BDB98 /* Pods-HJBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJBase_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B35FCF28A6C0DE27B6522B2F2CE8C30A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C6E8C74519EC1E61481DE27D67AED92B /* Pods-HJBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJBase_Tests-dummy.m"; sourceTree = "<group>"; };
+		C842D061485D888045315EF1D65D972E /* HJWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HJWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		C880C65D514AD879EB480A88285CBE33 /* HJWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HJWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		C8A02F2DB91F20D37805E084D5BD8E7D /* HJBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HJBase.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD553CB080AA195182E25F61E771CC7D /* Pods-HJBase_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJBase_Tests-Info.plist"; sourceTree = "<group>"; };
 		D02194438E2FA07D555B7C15EA27F0D0 /* Pods-HJBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC32FEEA2A1C33C39EEC29528776C919 /* HJWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HJWebView.m; sourceTree = "<group>"; };
 		DFAC589E9905CD0A52240D24686C3616 /* Pods-HJBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E44D8133C03C8517FDB6AD72A822F25D /* HJBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HJBase-dummy.m"; sourceTree = "<group>"; };
 		E88E19DC537E625FAA474975F079C763 /* HJBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HJBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FC4CB4E16276649CAF40DDF7BFE503 /* Pods-HJBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJBase_Example.modulemap"; sourceTree = "<group>"; };
-		EF497CF34B9F900DB62E2B1E14602E0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F3FA1E788A8411B52B545FB7D68E2FBF /* HJWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HJWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
 		FB7BDE05D78BC063EFF05812455BE627 /* Pods-HJBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD9CF463A74140AD4AF8A949C5434EF5 /* HJBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJBase-umbrella.h"; sourceTree = "<group>"; };
 		FE2A49A9376C6EBC9CA4167CF7D652DA /* Pods-HJBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,14 +88,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67AE3CE6A753C62D7967D690C4365BBB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66B33E0C4B23B09684716AB5DE382F32 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		885A7A404A53188FEB948AA8677F5D1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,15 +96,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E901A9D2C123880F31EAC15463A2C9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AC7FBA32568BA252797E28AF2D6357 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16CC9F8C5DE92E586531EAA6D6B618E3 /* Development Pods */ = {
+		288AB1B762E61E5260C6EA73336ABB5B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9CACB2B15D28B5415EADC16AF87934CA /* HJBase */,
+				7E851214D394F5ECEEF622D11F53D28E /* HJBase.modulemap */,
+				39D3359A0742C523556D184727270D0B /* HJBase.xcconfig */,
+				07CD1412F67FE3935510DF22501AAD3F /* HJBase-dummy.m */,
+				8DEB55010FE27AD008DD8F56697EE824 /* HJBase-Info.plist */,
+				19B3EB91D3FB012075DFBD4642843D28 /* HJBase-prefix.pch */,
+				4C05B34AB9B0E69665796DDAC7CC8730 /* HJBase-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HJBase";
 			sourceTree = "<group>";
 		};
 		2B78F4BC8F12CF56FC4CFD4EBA9BB736 /* Products */ = {
@@ -123,6 +129,16 @@
 				2BDBBAE8DA11E44FA29251DD85906FA8 /* Pods_HJBase_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4BBF38D7EBD8DA9678E363C9FF404377 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C8A02F2DB91F20D37805E084D5BD8E7D /* HJBase.podspec */,
+				A02E41C049F72F9236EE9C74C0F02031 /* LICENSE */,
+				903C8DC6C7F1BAE92A855C2DCEBC84BD /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4E99210E3C9AC0393F7D8D409B8A69E2 /* Pods-HJBase_Example */ = {
@@ -142,14 +158,24 @@
 			path = "Target Support Files/Pods-HJBase_Example";
 			sourceTree = "<group>";
 		};
-		71B1F412581BADA862DFDE756AAAD747 /* Pod */ = {
+		73737C6D99230014BD26CDB1A981080F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				555CE613121319E6E871362D1FC5A17A /* HJBase.podspec */,
-				B35FCF28A6C0DE27B6522B2F2CE8C30A /* LICENSE */,
-				EF497CF34B9F900DB62E2B1E14602E0A /* README.md */,
+				C880C65D514AD879EB480A88285CBE33 /* HJWeakScriptMessageDelegate.h */,
+				C842D061485D888045315EF1D65D972E /* HJWeakScriptMessageDelegate.m */,
+				7E54F3343E8ACBD6D3C69676031C757E /* HJWebView.h */,
+				DC32FEEA2A1C33C39EEC29528776C919 /* HJWebView.m */,
 			);
-			name = Pod;
+			name = View;
+			path = HJBase/Classes/View;
+			sourceTree = "<group>";
+		};
+		986F364E43CC020A83460BDA4F8A90A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F049407CA74193AA9062A0CEC7CE9CB /* HJBase */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -160,37 +186,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9CACB2B15D28B5415EADC16AF87934CA /* HJBase */ = {
+		9F049407CA74193AA9062A0CEC7CE9CB /* HJBase */ = {
 			isa = PBXGroup;
 			children = (
-				A0B14B8C641BC5D503451B4BA8BE0F56 /* HJBase.h */,
-				F061C3E0933BCF6225941333BDDE17F9 /* View */,
-				71B1F412581BADA862DFDE756AAAD747 /* Pod */,
-				A6A6260F120FF6726DF915D9315A2BD9 /* Support Files */,
+				739D76D64CB3A1DF523D4FCD821C47EA /* HJBase.h */,
+				4BBF38D7EBD8DA9678E363C9FF404377 /* Pod */,
+				288AB1B762E61E5260C6EA73336ABB5B /* Support Files */,
+				73737C6D99230014BD26CDB1A981080F /* View */,
 			);
 			name = HJBase;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		A6A6260F120FF6726DF915D9315A2BD9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9ADAF39ADC3BB8543C406020D5BCED63 /* HJBase.modulemap */,
-				39DE7D66AE8FAEE7D357DE91BC5E3705 /* HJBase.xcconfig */,
-				E44D8133C03C8517FDB6AD72A822F25D /* HJBase-dummy.m */,
-				2E28AF712305A288926091BCB934551D /* HJBase-Info.plist */,
-				249639D45AF46EE9E82B4FA0C68C71EF /* HJBase-prefix.pch */,
-				FD9CF463A74140AD4AF8A949C5434EF5 /* HJBase-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HJBase";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				16CC9F8C5DE92E586531EAA6D6B618E3 /* Development Pods */,
+				986F364E43CC020A83460BDA4F8A90A7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2B78F4BC8F12CF56FC4CFD4EBA9BB736 /* Products */,
 				DADB8D3D69E9358CB00E6D08DEC15845 /* Targets Support Files */,
@@ -212,18 +224,6 @@
 				F160ADC73426EAD03AD43596B2665404 /* Pods-HJBase_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F061C3E0933BCF6225941333BDDE17F9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F3FA1E788A8411B52B545FB7D68E2FBF /* HJWeakScriptMessageDelegate.h */,
-				4DAE4C7997ABDF26384A763FFA5FA6DE /* HJWeakScriptMessageDelegate.m */,
-				3CEFA0C8BC7992AF94873530C2B5DA08 /* HJWebView.h */,
-				133C788133FA4FB005D741EBBC1B21B1 /* HJWebView.m */,
-			);
-			name = View;
-			path = HJBase/Classes/View;
 			sourceTree = "<group>";
 		};
 		F160ADC73426EAD03AD43596B2665404 /* Pods-HJBase_Tests */ = {
@@ -253,14 +253,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FF7082C0690DAD5724EA75D84912F22 /* Headers */ = {
+		4579C3AE79A0C77286FC7E87C1AF2684 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C6883957C8DAA48A6D21DAD12F2E350 /* HJBase-umbrella.h in Headers */,
-				919BD3B280C1D46CB2997624009C1D03 /* HJBase.h in Headers */,
-				2622F76CF141885D5969049DF5D635A3 /* HJWeakScriptMessageDelegate.h in Headers */,
-				EAA5F7AFCEE8F458FE21BC6C6DDD3066 /* HJWebView.h in Headers */,
+				7B4048499628DD17219F24426EAD2BAA /* HJBase-umbrella.h in Headers */,
+				7BEECAC226BD1DF69F2C31F9848096C8 /* HJBase.h in Headers */,
+				50A6EA56813113D943816B5F622F6184 /* HJWeakScriptMessageDelegate.h in Headers */,
+				956AD5924EE7D363194900BF8DA5871F /* HJWebView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,14 +313,14 @@
 			productReference = 2BDBBAE8DA11E44FA29251DD85906FA8 /* Pods_HJBase_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9344D0263F8B9E70C8EA319608357F7 /* HJBase */ = {
+		45FCA74A16A31E320571EF370DB4B3F3 /* HJBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EA0A41674FBF3C1340C945744A4B3AD /* Build configuration list for PBXNativeTarget "HJBase" */;
+			buildConfigurationList = EBC932419E0BD427F80411BF285CDF31 /* Build configuration list for PBXNativeTarget "HJBase" */;
 			buildPhases = (
-				5FF7082C0690DAD5724EA75D84912F22 /* Headers */,
-				78698BA3056029393E19E6C94FFD702D /* Sources */,
-				67AE3CE6A753C62D7967D690C4365BBB /* Frameworks */,
-				55263AEC80A150779C005A88FCE61871 /* Resources */,
+				4579C3AE79A0C77286FC7E87C1AF2684 /* Headers */,
+				8B3720C0D00A277554F17D26F75E1E25 /* Sources */,
+				E901A9D2C123880F31EAC15463A2C9C3 /* Frameworks */,
+				FA2F81E2D13C59541D88DB5134DC485B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,10 +337,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = HJ;
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = HeJun;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -355,7 +353,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9344D0263F8B9E70C8EA319608357F7 /* HJBase */,
+				45FCA74A16A31E320571EF370DB4B3F3 /* HJBase */,
 				2BCE47CC7B90C9EEBEF477E463BEDF72 /* Pods-HJBase_Example */,
 				2C8378F7FE950708E190C582B44A02E3 /* Pods-HJBase_Tests */,
 			);
@@ -370,14 +368,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55263AEC80A150779C005A88FCE61871 /* Resources */ = {
+		BC3EBFB5DB50403C214DC2C0C97DEF6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC3EBFB5DB50403C214DC2C0C97DEF6C /* Resources */ = {
+		FA2F81E2D13C59541D88DB5134DC485B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,13 +401,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78698BA3056029393E19E6C94FFD702D /* Sources */ = {
+		8B3720C0D00A277554F17D26F75E1E25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE34FB0A156B7D579AAB5B0D2F4B63AC /* HJBase-dummy.m in Sources */,
-				E58F54F3C19A0D4CD6AA6F3AC60F226C /* HJWeakScriptMessageDelegate.m in Sources */,
-				DC0AD7FFC388F4080C6F43B06702F864 /* HJWebView.m in Sources */,
+				31ECE82C66F1FA9B9A7420E3E588C700 /* HJBase-dummy.m in Sources */,
+				F98A973F67CF57E334AA1ED4AF1443B6 /* HJWeakScriptMessageDelegate.m in Sources */,
+				ABBCF4A40EABADC438E7992C8C484E7F /* HJWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +423,7 @@
 		EEFFBF60F4A6C44F424D0718E593BB43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HJBase;
-			target = D9344D0263F8B9E70C8EA319608357F7 /* HJBase */;
+			target = 45FCA74A16A31E320571EF370DB4B3F3 /* HJBase */;
 			targetProxy = EB984731F73E25F6FD868B5203B6BA7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -524,69 +522,6 @@
 			};
 			name = Release;
 		};
-		0897995C187B4C4D252B1C8FB2515237 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39DE7D66AE8FAEE7D357DE91BC5E3705 /* HJBase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HJBase/HJBase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HJBase/HJBase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HJBase/HJBase.modulemap";
-				PRODUCT_MODULE_NAME = HJBase;
-				PRODUCT_NAME = HJBase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		13392AF8EA2BC6B3ACB65EA43F721156 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39DE7D66AE8FAEE7D357DE91BC5E3705 /* HJBase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HJBase/HJBase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HJBase/HJBase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HJBase/HJBase.modulemap";
-				PRODUCT_MODULE_NAME = HJBase;
-				PRODUCT_NAME = HJBase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		35A7B54483D3BA32ACCF7EAFE443F373 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE2A49A9376C6EBC9CA4167CF7D652DA /* Pods-HJBase_Tests.debug.xcconfig */;
@@ -684,6 +619,37 @@
 			};
 			name = Debug;
 		};
+		83D884DDB506839F2754A2DFC15CC178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D3359A0742C523556D184727270D0B /* HJBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HJBase/HJBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HJBase/HJBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HJBase/HJBase.modulemap";
+				PRODUCT_MODULE_NAME = HJBase;
+				PRODUCT_NAME = HJBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C1C7F9C50B48631F97071106B084F15C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53F22D4645ADF1B5CF72BB875F9C84AC /* Pods-HJBase_Example.debug.xcconfig */;
@@ -751,6 +717,38 @@
 			};
 			name = Release;
 		};
+		E98429EC5D2667A8B239DD6DDF64E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D3359A0742C523556D184727270D0B /* HJBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HJBase/HJBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HJBase/HJBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HJBase/HJBase.modulemap";
+				PRODUCT_MODULE_NAME = HJBase;
+				PRODUCT_NAME = HJBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -772,20 +770,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EA0A41674FBF3C1340C945744A4B3AD /* Build configuration list for PBXNativeTarget "HJBase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				13392AF8EA2BC6B3ACB65EA43F721156 /* Debug */,
-				0897995C187B4C4D252B1C8FB2515237 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A06F12A35F0300E482458753C05B61CA /* Build configuration list for PBXNativeTarget "Pods-HJBase_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35A7B54483D3BA32ACCF7EAFE443F373 /* Debug */,
 				0017C5176032467676D5BA4B8804C3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC932419E0BD427F80411BF285CDF31 /* Build configuration list for PBXNativeTarget "HJBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D884DDB506839F2754A2DFC15CC178 /* Debug */,
+				E98429EC5D2667A8B239DD6DDF64E207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
